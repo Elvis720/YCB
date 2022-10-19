@@ -87,14 +87,10 @@ int main(){
         }
     }
     
-
-    //
-    
     close(cfd);
     close(lfd);
     return 0;
 }
-
 string fun(const char * buffer,int size){
     string ans;
     string a,b;
@@ -122,11 +118,10 @@ string fun(const char * buffer,int size){
     }
     sstr<<b;sstr>>B;
     sstr.clear();
-    
-    
-    int C = A +B;
-   
+       
+    int C = A +B;  
     sstr << C;
     sstr >> ans;
+    
     return ans;
 }
