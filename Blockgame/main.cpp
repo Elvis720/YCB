@@ -1,6 +1,7 @@
-#include<iostream>
+//#include<iostream>
 #include<vector>
 #include"Blockgame.cpp"
+//#include"Blockgame.cpp"
 using namespace std;
 
 int main(){
@@ -37,7 +38,6 @@ int main(){
     start = {n-1,0};
     cout << A.lock_piece(B,start) <<endl;
 
-   
     return 0;
 }
 
